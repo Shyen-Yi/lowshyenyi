@@ -8,7 +8,7 @@
 html{
 	font-size: 10px;
 	font-family: 'Tahoma', sans-serif;
-	color: #7b7c7f;
+	color: #a8aaaf;
 }
 
 body{
@@ -34,6 +34,7 @@ li{
 p{
 	font-size: 1.8rem;
 	font-weight: 300;
+	text-align: justify;
 }
 
 img{
@@ -97,6 +98,21 @@ img{
 .has-margin-right{
 	margin-right: 5rem;
 }
+
+
+.skill p{
+	text-align: center;
+}
+
+.timeline p{
+	color: #3C4446;
+}
+
+.timeline h1{
+	color: #3C4446;
+}
+
+
 /*end reusable*/
 
 
@@ -219,7 +235,7 @@ li{
 .landing-text h1{
 	font-size: 10rem;
 	font-family: Georgia, sans-serif;
-	background: linear-gradient(to top, #00cccc, #ff6699); 
+	background-color:#eee; 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	padding: 1rem;
@@ -229,7 +245,7 @@ li{
 .landing-text h6{
 	font-size: 2rem;
 	font-weight: 300;
-	color: #e9ccd6;
+	color: #eee;
 }
 /*end header*/
 
@@ -331,7 +347,7 @@ li{
 
 /*start services*/
 .section-heading h1{
-	color: #7b7c7f;
+	color: #a8aaaf;
 }
 
 .services{
@@ -511,12 +527,12 @@ li{
 
 .timeline .date::after{
 	content:'';
-	box-shadow: 0 0 0 4px #00cccc;
+	box-shadow: 0 0 0 4px #3C4446;
 	border-radius: 100%;
 	left: -6.2rem;
 	height: 1.5rem;
 	width: 1.5rem;
-	background-color: #ff6699;
+	background-color: #a8aaaf;
 }
 /*end timeline*/
 
@@ -565,27 +581,27 @@ input[ type="submit"]{
 
 input[ type="submit"]:hover{
 	color: #221e3f;
-	background:linear-gradient(to top, #00cccc, #ff6699);
+	background:linear-gradient(to top, #4d4d4f, #a8aaaf);
 }
 
 .contact-info{
 	text-align: center;
 }
 
-.contact .container .section-heading h1{
+/* .contact .container .section-heading h1{
 	color: #00cccc;
 } 
 
 .contact .container .section-heading h6{
 	color: #00cccc;
-} 
+}  */
 
 .contact-info h2{
 	font-family: Georgia, sans-serif;
 	margin-bottom: 2rem;
 	font-size: 2rem;
 	font-weight: 0.3rem;
-	color: #e9ccd6;
+	/* color: #e9ccd6; */
 
 }
 /*end contact*/
@@ -594,7 +610,7 @@ input[ type="submit"]:hover{
 .copyright{ 
 	width: 100%;
 	text-align: center;
-	background-color: #1a1a24;
+	background-color: #3C4446;
 	padding: 2rem 0;
 	position: relative;
 }
@@ -621,6 +637,7 @@ input[ type="submit"]:hover{
 .copyright p{ 
 	font-size: 1.4rem;
 	color: #fff;
+	text-align: center;
 }
 /*end footer*/
 
